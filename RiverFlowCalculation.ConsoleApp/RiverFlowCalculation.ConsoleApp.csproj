@@ -7,8 +7,8 @@
     <ProjectGuid>{D297921F-FA24-4940-9FC4-8ADBDA77B9C3}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RiverFlowCalculation.Console</RootNamespace>
-    <AssemblyName>RiverFlowCalculation.Console</AssemblyName>
+    <RootNamespace>RiverFlowCalculation.ConsoleApp</RootNamespace>
+    <AssemblyName>RiverFlowCalculation.ConsoleApp</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\RiverCrossSection.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Models\RiverCrossSectionPart.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
